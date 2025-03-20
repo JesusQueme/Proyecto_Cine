@@ -8,7 +8,7 @@ export function Formulario({setuser}){
     const handleSubmit = (e) =>{
         e.preventDefault()
 
-        if(nombre == "" || contraseña==""){
+        if(nombre ==="" || contraseña===""){
             seterror(true)
             return
         }

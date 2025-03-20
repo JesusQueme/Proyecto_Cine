@@ -45,6 +45,6 @@ function validateToken(req, res, next){
 }
 
 
-app.listen(3000,()=>{
-    console.log('servidor iniciando en el puerto 3000');
+app.listen(3001,()=>{
+    console.log('servidor iniciando en el puerto 3001');
 });
